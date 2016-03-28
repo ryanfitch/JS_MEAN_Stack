@@ -1,8 +1,8 @@
-JavaScript Case Study & Drills
+JavaScript MEAN Stack Case Study & Drills
 ==========================
 
 
-This repository contains different case studies, drills and extra projects while learning JavaScript.
+This repository contains different case studies, drills and extra projects while learning JavaScript's MEAN Stack.
 
 Languages and frameworks used include:   
 * JavaScript
@@ -11,4 +11,7 @@ Languages and frameworks used include:
 * API's
 * Node.JS 
 * Express.JS 
+* Angular.JS
+* MongoDB.JS
+* JADE
 
