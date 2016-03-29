@@ -14,6 +14,8 @@ app.set('view engine', 'jade');
 app.set('views', __dirname + '/templates');
 
 app.get("/", function(req, res){
+    var path = req.path;
+    res.locals.path = path;
     res.render('index');
 });
 
@@ -27,6 +29,10 @@ app.get("/blog/:title?", function(req, res){
         res.render('post', { post: post});
     }
 });
+
+app.get('/posts', function(req, res) {
+        res.json(postsLists);
+})
 
 app.listen(3000, function() {
     console.log("Frontend server is running on port: 3000");
